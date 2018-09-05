@@ -376,14 +376,6 @@ var ReactAppboy = {
     }
   },
 
-  // News Feed
-  /**
-  * Launches the News Feed UI element.
-  */
-  launchNewsFeed: function() {
-    AppboyReactBridge.launchNewsFeed();
-  },
-
   /**
    * Requests a News Feed refresh.
    */
@@ -472,14 +464,6 @@ var ReactAppboy = {
    */
   logCardClicked: function(cardId, callback) {
       callFunctionWithCallback(AppboyReactBridge.logCardClicked, [cardId], callback);
-  },
-
-  // Feedback
-  /**
-  * Launches the Feedback UI element.  Not currently supported on Android.
-  */
-  launchFeedback: function() {
-    AppboyReactBridge.launchFeedback();
   },
 
   // Flush Controls

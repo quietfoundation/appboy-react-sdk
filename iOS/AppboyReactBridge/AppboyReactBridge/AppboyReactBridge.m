@@ -4,8 +4,6 @@
 #import "AppboyKit.h"
 #import "ABKUser.h"
 #import "AppboyReactUtils.h"
-#import "ABKModalFeedbackViewController.h"
-#import "ABKNewsFeedViewController.h"
 
 @implementation RCTConvert (AppboySubscriptionType)
 RCT_ENUM_CONVERTER(ABKNotificationSubscriptionType,
@@ -255,33 +253,6 @@ RCT_EXPORT_METHOD(setFacebookData:(nullable NSDictionary *)facebookUserDictionar
     [Appboy sharedInstance].user.facebookUser = facebookUser;
 }
 
-RCT_EXPORT_METHOD(launchNewsFeed) {
-  RCTLogInfo(@"launchNewsFeed called");
-  ABKNewsFeedViewController *feedModal = [[ABKNewsFeedViewController alloc] init];
-  feedModal.navigationItem.title = @"News";
-  UIWindow *keyWindow = [[UIApplication sharedApplication] keyWindow];
-  UIViewController *mainViewController = keyWindow.rootViewController;
-  [mainViewController presentViewController:feedModal animated:YES completion:nil];
-}
-
-- (ABKCardCategory)getCardCategoryForString:(NSString *)category {
-  ABKCardCategory cardCategory = 0;
-  if ([[category lowercaseString] isEqualToString:@"advertising"]) {
-    cardCategory = ABKCardCategoryAdvertising;
-  } else if ([[category lowercaseString] isEqualToString:@"announcements"]) {
-    cardCategory = ABKCardCategoryAnnouncements;
-  } else if ([[category lowercaseString] isEqualToString:@"news"]) {
-    cardCategory = ABKCardCategoryNews;
-  } else if ([[category lowercaseString] isEqualToString:@"social"]) {
-    cardCategory = ABKCardCategorySocial;
-  } else if ([[category lowercaseString] isEqualToString:@"no_category"]) {
-    cardCategory = ABKCardCategoryNoCategory;
-  } else if ([[category lowercaseString] isEqualToString:@"all"]) {
-    cardCategory = ABKCardCategoryAll;
-  }
-  return cardCategory;
-}
-
 RCT_EXPORT_METHOD(requestFeedRefresh) {
   [[Appboy sharedInstance] requestFeedRefresh];
 }
@@ -307,6 +278,24 @@ RCT_EXPORT_METHOD(enableSDK) {
 
 RCT_EXPORT_METHOD(requestLocationInitialization) {
   RCTLogInfo(@"Warning: This is an Android only feature.");
+}
+
+- (ABKCardCategory)getCardCategoryForString:(NSString *)category {
+    ABKCardCategory cardCategory = 0;
+    if ([[category lowercaseString] isEqualToString:@"advertising"]) {
+        cardCategory = ABKCardCategoryAdvertising;
+    } else if ([[category lowercaseString] isEqualToString:@"announcements"]) {
+        cardCategory = ABKCardCategoryAnnouncements;
+    } else if ([[category lowercaseString] isEqualToString:@"news"]) {
+        cardCategory = ABKCardCategoryNews;
+    } else if ([[category lowercaseString] isEqualToString:@"social"]) {
+        cardCategory = ABKCardCategorySocial;
+    } else if ([[category lowercaseString] isEqualToString:@"no_category"]) {
+        cardCategory = ABKCardCategoryNoCategory;
+    } else if ([[category lowercaseString] isEqualToString:@"all"]) {
+        cardCategory = ABKCardCategoryAll;
+    }
+    return cardCategory;
 }
 
 RCT_EXPORT_METHOD(getCardCountForCategories:(NSString *)category callback:(RCTResponseSenderBlock)callback) {
@@ -374,14 +363,6 @@ RCT_EXPORT_METHOD(logCardImpression:(NSString *)cardId callback:(RCTResponseSend
 
 RCT_EXPORT_METHOD(logCardClicked:(NSString *)cardId callback:(RCTResponseSenderBlock)callback) {
     [self findCardWithId:cardId andInvoke:@selector(logCardClicked) withCallback:callback];
-}
-
-RCT_EXPORT_METHOD(launchFeedback) {
-  RCTLogInfo(@"launchFeedback called");
-  ABKModalFeedbackViewController *feedbackModal = [[ABKModalFeedbackViewController alloc] init];
-  UIWindow *keyWindow = [[UIApplication sharedApplication] keyWindow];
-  UIViewController *mainViewController = keyWindow.rootViewController;
-  [mainViewController presentViewController:feedbackModal animated:YES completion:nil];
 }
 
 RCT_EXPORT_METHOD(requestImmediateDataFlush) {
