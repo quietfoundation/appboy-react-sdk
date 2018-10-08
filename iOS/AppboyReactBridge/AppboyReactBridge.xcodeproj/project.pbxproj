@@ -229,7 +229,7 @@
 				E53DD00D215408E800DD2259 /* libAppboyKitLibrary.a */,
 			);
 			path = AppboyKit;
-			sourceTree = "<group>";
+			sourceTree = SOURCE_ROOT;
 		};
 		E5980B18213F22AF00352065 /* Frameworks */ = {
 			isa = PBXGroup;
