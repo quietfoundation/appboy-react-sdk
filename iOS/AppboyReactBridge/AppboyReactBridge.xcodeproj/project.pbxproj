@@ -10,11 +10,11 @@
 		D4DB659B1D8C973800EFA6B6 /* AppboyReactUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = D4DB659A1D8C973800EFA6B6 /* AppboyReactUtils.m */; };
 		E3D0A75E1C668BB90027828A /* AppboyReactBridge.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = E3D0A75D1C668BB90027828A /* AppboyReactBridge.h */; };
 		E3D0A7601C668BB90027828A /* AppboyReactBridge.m in Sources */ = {isa = PBXBuildFile; fileRef = E3D0A75F1C668BB90027828A /* AppboyReactBridge.m */; };
-		E53DD00F215408E800DD2259 /* ABKLocationManagerProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E53DCFDB215408E700DD2259 /* ABKLocationManagerProvider.m */; };
-		E53DD011215408E800DD2259 /* ABKModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E53DD00B215408E700DD2259 /* ABKModalWebViewController.m */; };
-		E53DD012215408E800DD2259 /* ABKIdentifierForAdvertisingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E53DD00C215408E700DD2259 /* ABKIdentifierForAdvertisingProvider.m */; };
-		E53DD013215408E800DD2259 /* libAppboyKitLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E53DD00D215408E800DD2259 /* libAppboyKitLibrary.a */; };
-		E53DD014215408E800DD2259 /* ABKNoConnectionLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = E53DD00E215408E800DD2259 /* ABKNoConnectionLocalization.m */; };
+		E56C3784216BE73C0052907E /* ABKModalWebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E56C374F216BE73C0052907E /* ABKModalWebViewController.m */; };
+		E56C3785216BE73C0052907E /* ABKIdentifierForAdvertisingProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E56C3750216BE73C0052907E /* ABKIdentifierForAdvertisingProvider.m */; };
+		E56C3786216BE73C0052907E /* ABKLocationManagerProvider.m in Sources */ = {isa = PBXBuildFile; fileRef = E56C3751216BE73C0052907E /* ABKLocationManagerProvider.m */; };
+		E56C3787216BE73C0052907E /* ABKNoConnectionLocalization.m in Sources */ = {isa = PBXBuildFile; fileRef = E56C3752216BE73C0052907E /* ABKNoConnectionLocalization.m */; };
+		E56C3788216BE73C0052907E /* libAppboyKitLibrary.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E56C3781216BE73C0052907E /* libAppboyKitLibrary.a */; };
 		E5980B1A213F22AF00352065 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5980B19213F22AF00352065 /* SystemConfiguration.framework */; };
 		E5980B1E213F22BE00352065 /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5980B1D213F22BE00352065 /* CoreImage.framework */; };
 		E5980B20213F22C400352065 /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E5980B1F213F22C400352065 /* CoreText.framework */; };
@@ -46,55 +46,55 @@
 		E3D0A75A1C668BB90027828A /* libAppboyReactBridge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libAppboyReactBridge.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		E3D0A75D1C668BB90027828A /* AppboyReactBridge.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppboyReactBridge.h; sourceTree = "<group>"; };
 		E3D0A75F1C668BB90027828A /* AppboyReactBridge.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppboyReactBridge.m; sourceTree = "<group>"; };
-		E53DCFDB215408E700DD2259 /* ABKLocationManagerProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABKLocationManagerProvider.m; sourceTree = "<group>"; };
-		E53DCFDF215408E700DD2259 /* Appboy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appboy.h; sourceTree = "<group>"; };
-		E53DCFE0215408E700DD2259 /* ABKTextAnnouncementCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKTextAnnouncementCard.h; sourceTree = "<group>"; };
-		E53DCFE1215408E700DD2259 /* ABKContentCardsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKContentCardsController.h; sourceTree = "<group>"; };
-		E53DCFE2215408E700DD2259 /* ZipArchive_LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZipArchive_LICENSE.txt; sourceTree = "<group>"; };
-		E53DCFE3215408E700DD2259 /* ABKInAppMessageFull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageFull.h; sourceTree = "<group>"; };
-		E53DCFE4215408E700DD2259 /* ABKClassicContentCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKClassicContentCard.h; sourceTree = "<group>"; };
-		E53DCFE5215408E700DD2259 /* ABKInAppMessageControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageControllerDelegate.h; sourceTree = "<group>"; };
-		E53DCFE6215408E700DD2259 /* ABKClassicCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKClassicCard.h; sourceTree = "<group>"; };
-		E53DCFE7215408E700DD2259 /* ABKBannerContentCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKBannerContentCard.h; sourceTree = "<group>"; };
-		E53DCFE8215408E700DD2259 /* ABKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKUser.h; sourceTree = "<group>"; };
-		E53DCFE9215408E700DD2259 /* ABKContentCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKContentCard.h; sourceTree = "<group>"; };
-		E53DCFEA215408E700DD2259 /* ABKInAppMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageController.h; sourceTree = "<group>"; };
-		E53DCFEB215408E700DD2259 /* ABKInAppMessageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageButton.h; sourceTree = "<group>"; };
-		E53DCFEC215408E700DD2259 /* ABKCrossPromotionCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKCrossPromotionCard.h; sourceTree = "<group>"; };
-		E53DCFED215408E700DD2259 /* ABKAppboyEndpointDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKAppboyEndpointDelegate.h; sourceTree = "<group>"; };
-		E53DCFEE215408E700DD2259 /* ABKInAppMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessage.h; sourceTree = "<group>"; };
-		E53DCFEF215408E700DD2259 /* ABKInAppMessageUIControlling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageUIControlling.h; sourceTree = "<group>"; };
-		E53DCFF0215408E700DD2259 /* ABKSDWebImageProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKSDWebImageProxy.h; sourceTree = "<group>"; };
-		E53DCFF1215408E700DD2259 /* ABKAttributionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKAttributionData.h; sourceTree = "<group>"; };
-		E53DCFF2215408E700DD2259 /* ABKPushUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKPushUtils.h; sourceTree = "<group>"; };
-		E53DCFF3215408E700DD2259 /* ABKLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKLocationManager.h; sourceTree = "<group>"; };
-		E53DCFF4215408E700DD2259 /* ABKInAppMessageSlideup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageSlideup.h; sourceTree = "<group>"; };
-		E53DCFF5215408E700DD2259 /* ABKIdentifierForAdvertisingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKIdentifierForAdvertisingProvider.h; sourceTree = "<group>"; };
-		E53DCFF6215408E700DD2259 /* ABKInAppMessageImmersive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageImmersive.h; sourceTree = "<group>"; };
-		E53DCFF7215408E700DD2259 /* ABKCaptionedImageCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKCaptionedImageCard.h; sourceTree = "<group>"; };
-		E53DCFF8215408E700DD2259 /* ABKFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKFeedback.h; sourceTree = "<group>"; };
-		E53DCFF9215408E700DD2259 /* ABKCaptionedImageContentCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKCaptionedImageContentCard.h; sourceTree = "<group>"; };
-		E53DCFFA215408E700DD2259 /* ABKFacebookUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKFacebookUser.h; sourceTree = "<group>"; };
-		E53DCFFB215408E700DD2259 /* ABKInAppMessageHTMLJSBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageHTMLJSBridge.h; sourceTree = "<group>"; };
-		E53DCFFC215408E700DD2259 /* ABKModalWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKModalWebViewController.h; sourceTree = "<group>"; };
-		E53DCFFD215408E700DD2259 /* ABKInAppMessageHTMLFull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageHTMLFull.h; sourceTree = "<group>"; };
-		E53DCFFE215408E700DD2259 /* ABKFeedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKFeedController.h; sourceTree = "<group>"; };
-		E53DCFFF215408E700DD2259 /* ABKLocationManagerProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKLocationManagerProvider.h; sourceTree = "<group>"; };
-		E53DD000215408E700DD2259 /* ABKInAppMessageHTMLJSInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageHTMLJSInterface.h; sourceTree = "<group>"; };
-		E53DD001215408E700DD2259 /* ABKURLDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKURLDelegate.h; sourceTree = "<group>"; };
-		E53DD002215408E700DD2259 /* ABKIDFADelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKIDFADelegate.h; sourceTree = "<group>"; };
-		E53DD003215408E700DD2259 /* ABKCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKCard.h; sourceTree = "<group>"; };
-		E53DD004215408E700DD2259 /* AppboyKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppboyKit.h; sourceTree = "<group>"; };
-		E53DD005215408E700DD2259 /* ABKTwitterUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKTwitterUser.h; sourceTree = "<group>"; };
-		E53DD006215408E700DD2259 /* ABKInAppMessageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageControl.h; sourceTree = "<group>"; };
-		E53DD007215408E700DD2259 /* ABKNoConnectionLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKNoConnectionLocalization.h; sourceTree = "<group>"; };
-		E53DD008215408E700DD2259 /* ABKInAppMessageModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageModal.h; sourceTree = "<group>"; };
-		E53DD009215408E700DD2259 /* ABKBannerCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKBannerCard.h; sourceTree = "<group>"; };
-		E53DD00A215408E700DD2259 /* ABKInAppMessageHTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageHTML.h; sourceTree = "<group>"; };
-		E53DD00B215408E700DD2259 /* ABKModalWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABKModalWebViewController.m; sourceTree = "<group>"; };
-		E53DD00C215408E700DD2259 /* ABKIdentifierForAdvertisingProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABKIdentifierForAdvertisingProvider.m; sourceTree = "<group>"; };
-		E53DD00D215408E800DD2259 /* libAppboyKitLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppboyKitLibrary.a; sourceTree = "<group>"; };
-		E53DD00E215408E800DD2259 /* ABKNoConnectionLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABKNoConnectionLocalization.m; sourceTree = "<group>"; };
+		E56C374F216BE73C0052907E /* ABKModalWebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABKModalWebViewController.m; sourceTree = "<group>"; };
+		E56C3750216BE73C0052907E /* ABKIdentifierForAdvertisingProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABKIdentifierForAdvertisingProvider.m; sourceTree = "<group>"; };
+		E56C3751216BE73C0052907E /* ABKLocationManagerProvider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABKLocationManagerProvider.m; sourceTree = "<group>"; };
+		E56C3752216BE73C0052907E /* ABKNoConnectionLocalization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ABKNoConnectionLocalization.m; sourceTree = "<group>"; };
+		E56C3755216BE73C0052907E /* Appboy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Appboy.h; sourceTree = "<group>"; };
+		E56C3756216BE73C0052907E /* ABKTextAnnouncementCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKTextAnnouncementCard.h; sourceTree = "<group>"; };
+		E56C3757216BE73C0052907E /* ABKContentCardsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKContentCardsController.h; sourceTree = "<group>"; };
+		E56C3758216BE73C0052907E /* ZipArchive_LICENSE.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = ZipArchive_LICENSE.txt; sourceTree = "<group>"; };
+		E56C3759216BE73C0052907E /* ABKInAppMessageFull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageFull.h; sourceTree = "<group>"; };
+		E56C375A216BE73C0052907E /* ABKClassicContentCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKClassicContentCard.h; sourceTree = "<group>"; };
+		E56C375B216BE73C0052907E /* ABKInAppMessageControllerDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageControllerDelegate.h; sourceTree = "<group>"; };
+		E56C375C216BE73C0052907E /* ABKClassicCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKClassicCard.h; sourceTree = "<group>"; };
+		E56C375D216BE73C0052907E /* ABKBannerContentCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKBannerContentCard.h; sourceTree = "<group>"; };
+		E56C375E216BE73C0052907E /* ABKUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKUser.h; sourceTree = "<group>"; };
+		E56C375F216BE73C0052907E /* ABKContentCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKContentCard.h; sourceTree = "<group>"; };
+		E56C3760216BE73C0052907E /* ABKInAppMessageController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageController.h; sourceTree = "<group>"; };
+		E56C3761216BE73C0052907E /* ABKInAppMessageButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageButton.h; sourceTree = "<group>"; };
+		E56C3762216BE73C0052907E /* ABKCrossPromotionCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKCrossPromotionCard.h; sourceTree = "<group>"; };
+		E56C3763216BE73C0052907E /* ABKAppboyEndpointDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKAppboyEndpointDelegate.h; sourceTree = "<group>"; };
+		E56C3764216BE73C0052907E /* ABKInAppMessage.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessage.h; sourceTree = "<group>"; };
+		E56C3765216BE73C0052907E /* ABKInAppMessageUIControlling.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageUIControlling.h; sourceTree = "<group>"; };
+		E56C3766216BE73C0052907E /* ABKSDWebImageProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKSDWebImageProxy.h; sourceTree = "<group>"; };
+		E56C3767216BE73C0052907E /* ABKAttributionData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKAttributionData.h; sourceTree = "<group>"; };
+		E56C3768216BE73C0052907E /* ABKPushUtils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKPushUtils.h; sourceTree = "<group>"; };
+		E56C3769216BE73C0052907E /* ABKLocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKLocationManager.h; sourceTree = "<group>"; };
+		E56C376A216BE73C0052907E /* ABKInAppMessageSlideup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageSlideup.h; sourceTree = "<group>"; };
+		E56C376B216BE73C0052907E /* ABKIdentifierForAdvertisingProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKIdentifierForAdvertisingProvider.h; sourceTree = "<group>"; };
+		E56C376C216BE73C0052907E /* ABKInAppMessageImmersive.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageImmersive.h; sourceTree = "<group>"; };
+		E56C376D216BE73C0052907E /* ABKCaptionedImageCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKCaptionedImageCard.h; sourceTree = "<group>"; };
+		E56C376E216BE73C0052907E /* ABKFeedback.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKFeedback.h; sourceTree = "<group>"; };
+		E56C376F216BE73C0052907E /* ABKCaptionedImageContentCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKCaptionedImageContentCard.h; sourceTree = "<group>"; };
+		E56C3770216BE73C0052907E /* ABKFacebookUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKFacebookUser.h; sourceTree = "<group>"; };
+		E56C3771216BE73C0052907E /* ABKInAppMessageHTMLJSBridge.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageHTMLJSBridge.h; sourceTree = "<group>"; };
+		E56C3772216BE73C0052907E /* ABKModalWebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKModalWebViewController.h; sourceTree = "<group>"; };
+		E56C3773216BE73C0052907E /* ABKInAppMessageHTMLFull.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageHTMLFull.h; sourceTree = "<group>"; };
+		E56C3774216BE73C0052907E /* ABKFeedController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKFeedController.h; sourceTree = "<group>"; };
+		E56C3775216BE73C0052907E /* ABKLocationManagerProvider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKLocationManagerProvider.h; sourceTree = "<group>"; };
+		E56C3776216BE73C0052907E /* ABKInAppMessageHTMLJSInterface.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageHTMLJSInterface.h; sourceTree = "<group>"; };
+		E56C3777216BE73C0052907E /* ABKURLDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKURLDelegate.h; sourceTree = "<group>"; };
+		E56C3778216BE73C0052907E /* ABKIDFADelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKIDFADelegate.h; sourceTree = "<group>"; };
+		E56C3779216BE73C0052907E /* ABKCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKCard.h; sourceTree = "<group>"; };
+		E56C377A216BE73C0052907E /* AppboyKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppboyKit.h; sourceTree = "<group>"; };
+		E56C377B216BE73C0052907E /* ABKTwitterUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKTwitterUser.h; sourceTree = "<group>"; };
+		E56C377C216BE73C0052907E /* ABKInAppMessageControl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageControl.h; sourceTree = "<group>"; };
+		E56C377D216BE73C0052907E /* ABKNoConnectionLocalization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKNoConnectionLocalization.h; sourceTree = "<group>"; };
+		E56C377E216BE73C0052907E /* ABKInAppMessageModal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageModal.h; sourceTree = "<group>"; };
+		E56C377F216BE73C0052907E /* ABKBannerCard.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKBannerCard.h; sourceTree = "<group>"; };
+		E56C3780216BE73C0052907E /* ABKInAppMessageHTML.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ABKInAppMessageHTML.h; sourceTree = "<group>"; };
+		E56C3781216BE73C0052907E /* libAppboyKitLibrary.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libAppboyKitLibrary.a; sourceTree = "<group>"; };
 		E5980B19213F22AF00352065 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		E5980B1B213F22B500352065 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		E5980B1D213F22BE00352065 /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
@@ -117,7 +117,7 @@
 				E5980B2C213F22EF00352065 /* AdSupport.framework in Frameworks */,
 				E5980B2A213F22E800352065 /* Accounts.framework in Frameworks */,
 				E5980B28213F22E000352065 /* Social.framework in Frameworks */,
-				E53DD013215408E800DD2259 /* libAppboyKitLibrary.a in Frameworks */,
+				E56C3788216BE73C0052907E /* libAppboyKitLibrary.a in Frameworks */,
 				E5980B26213F22D700352065 /* CoreTelephony.framework in Frameworks */,
 				E5980B24213F22D300352065 /* WebKit.framework in Frameworks */,
 				E5980B22213F22CF00352065 /* QuartzCore.framework in Frameworks */,
@@ -133,7 +133,7 @@
 		E3D0A7511C668BB90027828A = {
 			isa = PBXGroup;
 			children = (
-				E59809C3213F223900352065 /* AppboyKit */,
+				E56C374E216BE73C0052907E /* AppboyKit */,
 				E3D0A75C1C668BB90027828A /* AppboyReactBridge */,
 				E3D0A75B1C668BB90027828A /* Products */,
 				E5980B18213F22AF00352065 /* Frameworks */,
@@ -159,76 +159,77 @@
 			path = AppboyReactBridge;
 			sourceTree = "<group>";
 		};
-		E53DCFDD215408E700DD2259 /* headers */ = {
+		E56C374E216BE73C0052907E /* AppboyKit */ = {
 			isa = PBXGroup;
 			children = (
-				E53DCFDE215408E700DD2259 /* AppboyKitLibrary */,
+				E56C374F216BE73C0052907E /* ABKModalWebViewController.m */,
+				E56C3750216BE73C0052907E /* ABKIdentifierForAdvertisingProvider.m */,
+				E56C3751216BE73C0052907E /* ABKLocationManagerProvider.m */,
+				E56C3752216BE73C0052907E /* ABKNoConnectionLocalization.m */,
+				E56C3753216BE73C0052907E /* headers */,
+				E56C3781216BE73C0052907E /* libAppboyKitLibrary.a */,
+			);
+			name = AppboyKit;
+			path = "../../../appboy-ios-sdk/AppboyKit";
+			sourceTree = "<group>";
+		};
+		E56C3753216BE73C0052907E /* headers */ = {
+			isa = PBXGroup;
+			children = (
+				E56C3754216BE73C0052907E /* AppboyKitLibrary */,
 			);
 			path = headers;
 			sourceTree = "<group>";
 		};
-		E53DCFDE215408E700DD2259 /* AppboyKitLibrary */ = {
+		E56C3754216BE73C0052907E /* AppboyKitLibrary */ = {
 			isa = PBXGroup;
 			children = (
-				E53DCFDF215408E700DD2259 /* Appboy.h */,
-				E53DCFE0215408E700DD2259 /* ABKTextAnnouncementCard.h */,
-				E53DCFE1215408E700DD2259 /* ABKContentCardsController.h */,
-				E53DCFE2215408E700DD2259 /* ZipArchive_LICENSE.txt */,
-				E53DCFE3215408E700DD2259 /* ABKInAppMessageFull.h */,
-				E53DCFE4215408E700DD2259 /* ABKClassicContentCard.h */,
-				E53DCFE5215408E700DD2259 /* ABKInAppMessageControllerDelegate.h */,
-				E53DCFE6215408E700DD2259 /* ABKClassicCard.h */,
-				E53DCFE7215408E700DD2259 /* ABKBannerContentCard.h */,
-				E53DCFE8215408E700DD2259 /* ABKUser.h */,
-				E53DCFE9215408E700DD2259 /* ABKContentCard.h */,
-				E53DCFEA215408E700DD2259 /* ABKInAppMessageController.h */,
-				E53DCFEB215408E700DD2259 /* ABKInAppMessageButton.h */,
-				E53DCFEC215408E700DD2259 /* ABKCrossPromotionCard.h */,
-				E53DCFED215408E700DD2259 /* ABKAppboyEndpointDelegate.h */,
-				E53DCFEE215408E700DD2259 /* ABKInAppMessage.h */,
-				E53DCFEF215408E700DD2259 /* ABKInAppMessageUIControlling.h */,
-				E53DCFF0215408E700DD2259 /* ABKSDWebImageProxy.h */,
-				E53DCFF1215408E700DD2259 /* ABKAttributionData.h */,
-				E53DCFF2215408E700DD2259 /* ABKPushUtils.h */,
-				E53DCFF3215408E700DD2259 /* ABKLocationManager.h */,
-				E53DCFF4215408E700DD2259 /* ABKInAppMessageSlideup.h */,
-				E53DCFF5215408E700DD2259 /* ABKIdentifierForAdvertisingProvider.h */,
-				E53DCFF6215408E700DD2259 /* ABKInAppMessageImmersive.h */,
-				E53DCFF7215408E700DD2259 /* ABKCaptionedImageCard.h */,
-				E53DCFF8215408E700DD2259 /* ABKFeedback.h */,
-				E53DCFF9215408E700DD2259 /* ABKCaptionedImageContentCard.h */,
-				E53DCFFA215408E700DD2259 /* ABKFacebookUser.h */,
-				E53DCFFB215408E700DD2259 /* ABKInAppMessageHTMLJSBridge.h */,
-				E53DCFFC215408E700DD2259 /* ABKModalWebViewController.h */,
-				E53DCFFD215408E700DD2259 /* ABKInAppMessageHTMLFull.h */,
-				E53DCFFE215408E700DD2259 /* ABKFeedController.h */,
-				E53DCFFF215408E700DD2259 /* ABKLocationManagerProvider.h */,
-				E53DD000215408E700DD2259 /* ABKInAppMessageHTMLJSInterface.h */,
-				E53DD001215408E700DD2259 /* ABKURLDelegate.h */,
-				E53DD002215408E700DD2259 /* ABKIDFADelegate.h */,
-				E53DD003215408E700DD2259 /* ABKCard.h */,
-				E53DD004215408E700DD2259 /* AppboyKit.h */,
-				E53DD005215408E700DD2259 /* ABKTwitterUser.h */,
-				E53DD006215408E700DD2259 /* ABKInAppMessageControl.h */,
-				E53DD007215408E700DD2259 /* ABKNoConnectionLocalization.h */,
-				E53DD008215408E700DD2259 /* ABKInAppMessageModal.h */,
-				E53DD009215408E700DD2259 /* ABKBannerCard.h */,
-				E53DD00A215408E700DD2259 /* ABKInAppMessageHTML.h */,
+				E56C3755216BE73C0052907E /* Appboy.h */,
+				E56C3756216BE73C0052907E /* ABKTextAnnouncementCard.h */,
+				E56C3757216BE73C0052907E /* ABKContentCardsController.h */,
+				E56C3758216BE73C0052907E /* ZipArchive_LICENSE.txt */,
+				E56C3759216BE73C0052907E /* ABKInAppMessageFull.h */,
+				E56C375A216BE73C0052907E /* ABKClassicContentCard.h */,
+				E56C375B216BE73C0052907E /* ABKInAppMessageControllerDelegate.h */,
+				E56C375C216BE73C0052907E /* ABKClassicCard.h */,
+				E56C375D216BE73C0052907E /* ABKBannerContentCard.h */,
+				E56C375E216BE73C0052907E /* ABKUser.h */,
+				E56C375F216BE73C0052907E /* ABKContentCard.h */,
+				E56C3760216BE73C0052907E /* ABKInAppMessageController.h */,
+				E56C3761216BE73C0052907E /* ABKInAppMessageButton.h */,
+				E56C3762216BE73C0052907E /* ABKCrossPromotionCard.h */,
+				E56C3763216BE73C0052907E /* ABKAppboyEndpointDelegate.h */,
+				E56C3764216BE73C0052907E /* ABKInAppMessage.h */,
+				E56C3765216BE73C0052907E /* ABKInAppMessageUIControlling.h */,
+				E56C3766216BE73C0052907E /* ABKSDWebImageProxy.h */,
+				E56C3767216BE73C0052907E /* ABKAttributionData.h */,
+				E56C3768216BE73C0052907E /* ABKPushUtils.h */,
+				E56C3769216BE73C0052907E /* ABKLocationManager.h */,
+				E56C376A216BE73C0052907E /* ABKInAppMessageSlideup.h */,
+				E56C376B216BE73C0052907E /* ABKIdentifierForAdvertisingProvider.h */,
+				E56C376C216BE73C0052907E /* ABKInAppMessageImmersive.h */,
+				E56C376D216BE73C0052907E /* ABKCaptionedImageCard.h */,
+				E56C376E216BE73C0052907E /* ABKFeedback.h */,
+				E56C376F216BE73C0052907E /* ABKCaptionedImageContentCard.h */,
+				E56C3770216BE73C0052907E /* ABKFacebookUser.h */,
+				E56C3771216BE73C0052907E /* ABKInAppMessageHTMLJSBridge.h */,
+				E56C3772216BE73C0052907E /* ABKModalWebViewController.h */,
+				E56C3773216BE73C0052907E /* ABKInAppMessageHTMLFull.h */,
+				E56C3774216BE73C0052907E /* ABKFeedController.h */,
+				E56C3775216BE73C0052907E /* ABKLocationManagerProvider.h */,
+				E56C3776216BE73C0052907E /* ABKInAppMessageHTMLJSInterface.h */,
+				E56C3777216BE73C0052907E /* ABKURLDelegate.h */,
+				E56C3778216BE73C0052907E /* ABKIDFADelegate.h */,
+				E56C3779216BE73C0052907E /* ABKCard.h */,
+				E56C377A216BE73C0052907E /* AppboyKit.h */,
+				E56C377B216BE73C0052907E /* ABKTwitterUser.h */,
+				E56C377C216BE73C0052907E /* ABKInAppMessageControl.h */,
+				E56C377D216BE73C0052907E /* ABKNoConnectionLocalization.h */,
+				E56C377E216BE73C0052907E /* ABKInAppMessageModal.h */,
+				E56C377F216BE73C0052907E /* ABKBannerCard.h */,
+				E56C3780216BE73C0052907E /* ABKInAppMessageHTML.h */,
 			);
 			path = AppboyKitLibrary;
-			sourceTree = "<group>";
-		};
-		E59809C3213F223900352065 /* AppboyKit */ = {
-			isa = PBXGroup;
-			children = (
-				E53DD00C215408E700DD2259 /* ABKIdentifierForAdvertisingProvider.m */,
-				E53DCFDB215408E700DD2259 /* ABKLocationManagerProvider.m */,
-				E53DD00B215408E700DD2259 /* ABKModalWebViewController.m */,
-				E53DD00E215408E800DD2259 /* ABKNoConnectionLocalization.m */,
-				E53DCFDD215408E700DD2259 /* headers */,
-				E53DD00D215408E800DD2259 /* libAppboyKitLibrary.a */,
-			);
-			path = AppboyKit;
 			sourceTree = "<group>";
 		};
 		E5980B18213F22AF00352065 /* Frameworks */ = {
@@ -340,12 +341,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E53DD00F215408E800DD2259 /* ABKLocationManagerProvider.m in Sources */,
 				D4DB659B1D8C973800EFA6B6 /* AppboyReactUtils.m in Sources */,
+				E56C3786216BE73C0052907E /* ABKLocationManagerProvider.m in Sources */,
+				E56C3784216BE73C0052907E /* ABKModalWebViewController.m in Sources */,
 				E3D0A7601C668BB90027828A /* AppboyReactBridge.m in Sources */,
-				E53DD014215408E800DD2259 /* ABKNoConnectionLocalization.m in Sources */,
-				E53DD012215408E800DD2259 /* ABKIdentifierForAdvertisingProvider.m in Sources */,
-				E53DD011215408E800DD2259 /* ABKModalWebViewController.m in Sources */,
+				E56C3787216BE73C0052907E /* ABKNoConnectionLocalization.m in Sources */,
+				E56C3785216BE73C0052907E /* ABKIdentifierForAdvertisingProvider.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
