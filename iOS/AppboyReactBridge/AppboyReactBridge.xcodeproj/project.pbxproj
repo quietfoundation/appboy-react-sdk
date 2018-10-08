@@ -229,8 +229,8 @@
 				E56C3933216BFDDD0052907E /* ABKBannerCard.h */,
 				E56C3934216BFDDD0052907E /* ABKInAppMessageHTML.h */,
 			);
-			path = AppboyKitLibrary;
-			sourceTree = "<group>";
+			path = AppboyKit;
+			sourceTree = SOURCE_ROOT;
 		};
 		E5980B18213F22AF00352065 /* Frameworks */ = {
 			isa = PBXGroup;
